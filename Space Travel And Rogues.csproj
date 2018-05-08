@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.5.4p4</UnityVersion>
@@ -81,7 +82,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Common\Animation\EasingControl.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\EasingEquations.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformAnimationExtensions.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformLocalEulerTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformLocalPositionTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformPositionTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\TransformScaleTweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\Tweener.cs" />
+    <Compile Include="Assets\Scripts\Common\Animation\Vector3Tweener.cs" />
     <Compile Include="Assets\Scripts\MouseController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Sounds\KevinFowlerMenuSFX\ReadMe.txt" />
+    <None Include="Assets\Textures\UI\KeeneyAssets\license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
