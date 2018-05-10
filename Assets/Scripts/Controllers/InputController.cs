@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class InputController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    MouseMode currentMode = MouseMode.Select;
 
+    public void StartBuildMode()
+    {
+        currentMode = MouseMode.Build;
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

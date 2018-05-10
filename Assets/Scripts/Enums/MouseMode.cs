@@ -1,0 +1,6 @@
+﻿
+enum MouseMode
+{
+    Select,
+    Build
+}

@@ -95,44 +95,18 @@
     <Compile Include="Assets\Scripts\Common\Animation\Vector3Tweener.cs" />
     <Compile Include="Assets\Scripts\Controllers\BuildModeController.cs" />
     <Compile Include="Assets\Scripts\Controllers\InputController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\WorldController.cs" />
+    <Compile Include="Assets\Scripts\Enums\MouseMode.cs" />
+    <Compile Include="Assets\Scripts\Enums\TileType.cs" />
+    <Compile Include="Assets\Scripts\Enums\BuildModes.cs" />
+    <Compile Include="Assets\Scripts\Models\Character.cs" />
+    <Compile Include="Assets\Scripts\Models\Furniture.cs" />
+    <Compile Include="Assets\Scripts\Models\Tile.cs" />
+    <Compile Include="Assets\Scripts\Models\World.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Sounds\KevinFowlerMenuSFX\ReadMe.txt" />
-    <None Include="Assets\Scenes\Main.unity" />
-    <None Include="Assets\Scenes\Main.unity.meta" />
     <None Include="Assets\Textures\UI\KeeneyAssets\license.txt" />
-    <None Include="ProjectSettings\AudioManager.asset" />
-    <None Include="ProjectSettings\ClusterInputManager.asset" />
-    <None Include="ProjectSettings\DynamicsManager.asset" />
-    <None Include="ProjectSettings\EditorBuildSettings.asset" />
-    <None Include="ProjectSettings\EditorSettings.asset" />
-    <None Include="ProjectSettings\GraphicsSettings.asset" />
-    <None Include="ProjectSettings\InputManager.asset" />
-    <None Include="ProjectSettings\NavMeshAreas.asset" />
-    <None Include="ProjectSettings\NetworkManager.asset" />
-    <None Include="ProjectSettings\Physics2DSettings.asset" />
-    <None Include="ProjectSettings\ProjectSettings.asset" />
-    <None Include="ProjectSettings\QualitySettings.asset" />
-    <None Include="ProjectSettings\TagManager.asset" />
-    <None Include="ProjectSettings\TimeManager.asset" />
-    <None Include="ProjectSettings\UnityConnectSettings.asset" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Editor\" />
-    <Folder Include="Assets\Materials\" />
-    <Folder Include="Assets\Prefabs\" />
-    <Folder Include="Assets\Scripts\Common\State Machine\" />
-    <Folder Include="Assets\Scripts\Controllers\States\" />
-    <Folder Include="Assets\Scripts\Enums\" />
-    <Folder Include="Assets\Scripts\Extensions\" />
-    <Folder Include="Assets\Scripts\Factory\" />
-    <Folder Include="Assets\Scripts\Model\" />
-    <Folder Include="Assets\Scripts\PreProduction\" />
-    <Folder Include="Assets\Scripts\View Model Component\" />
-    <Folder Include="Assets\Settings\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
